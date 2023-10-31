@@ -1,11 +1,13 @@
+import { Routers } from "./routes"
 
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         React & Typescript
       </header>
+      <Routers></Routers>
     </div>
   )
 }
